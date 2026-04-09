@@ -4,6 +4,12 @@ Overview
 
 A Spring Boot REST API for managing tasks with full CRUD functionality.
 
+# Database
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_DB
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
 # Tech Stack
 Java
 Spring Boot
